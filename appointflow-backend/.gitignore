@@ -1,0 +1,45 @@
+# Зависимости
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/.pnp
+.pnp.js
+
+# Файлы сборки
+/node_modules
+/dist
+/build
+
+# Файлы среды выполнения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Кэш и логи
+/.cache
+/.npm
+/logs
+*.log
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы редакторов
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# Файлы покрытия тестами
+/coverage
+
+# Временные файлы
+/tmp
+/temp
+
+# Другие специфичные для проекта файлы
+/config.js
+/secrets.json
