@@ -6,8 +6,14 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/home">Home</RouterLink>
-        <RouterLink to="/records">Records</RouterLink>
+        <div class="left-links">
+          <router-link to="/">Главная</router-link>
+          <router-link to="/records">Записаться</router-link>
+        </div>
+        <div class="right-links">
+          <button>Регистрация</button>
+          <button>Вход</button>
+        </div>
       </nav>
       <router-view/>
     </div>
